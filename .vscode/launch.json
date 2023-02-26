@@ -4,3 +4,9 @@
     "name": "Open index.html",
     "file": "C:\Users\skrut\Documents\GitHub\Webbshop\\index.html"
 }
+{
+    "type": "chrome",
+    "request": "launch",
+    "name": "Open index.html",
+    "file": "C:\Users\skrut\Documents\GitHub\Webbshop\\shop.html"
+}
