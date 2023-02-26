@@ -31,7 +31,7 @@ h6 {
 
 p{
     font-size: 16px;
-    color: #03030322;
+    color: black;
     margin: 20px 0 25px 0;
 }
 
@@ -249,7 +249,7 @@ body{
     text-align: center;
     background-image: url(simon-berger-twukN12EN7c-unsplash.jpg);
     width: 100%;
-    height: 40vh;
+    height: 55vh;
     background-size: cover;
     background-position: center;
   }
@@ -275,6 +275,7 @@ body{
   }
 
   #footer{
+    background: #4d72c4;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -306,7 +307,7 @@ body{
   }
 
   #footer .follow i:hover, footer a:hover{
-    color: #4d72c4;
+    color: #a2b2d5;
   }
 
   #footer a{
@@ -323,14 +324,144 @@ body{
   }
   
 
+  /*shop delen*/
+  #page-header{
+    background-image: url(bannertest.png);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px; 
+  }
+
+  #page-header h2, #page-header p{
+    color: black;
+  }
+
+  #productdetails .single-proudct-image{
+    width: 40%;
+    margin-right: 50px;
+  }
+
+  .small-img-group{
+    display: flex;
+    justify-content: space-between;
+    height: 80%
+  }
+
+  .small-img-column{
+    flex-basis: 24%;
+    cursor: pointer;
+  }
 
 
+  /* single product */
+
+  #productdetails{
+    display:flex;
+    margin-top: 20px;
+  }
+
+  #productdetails .single-product-details{
+    width: 50%;
+    padding-top: 30px;
+  }
+
+  #productdetails .single-product-details h4{
+    padding: 40px 0 25px 0;
+  }
+  #productdetails .single-product-details h2{
+    font-size: 28px;
+  }
+
+  #productdetails .single-product-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+  }
+
+  #productdetails .single-product-details input{
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  #productdetails .single-product-details button{
+    color: white;
+    background-color: #4d72c4;
+  }
+
+  #productdetails .single-product-details span{
+    line-height: 27px;
+
+  }
 
 
+  /*about*/
+  #about-header{
+    background-image: url(chris-stenger-fvJwchRL6xw-unsplash.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px; 
+  }
 
+  #about-header h2, #about-header p{
+    color: white;
+  }
 
+  #aboutus{
+    display:flex;
+    align-items: center;
+  }
 
+  #aboutus img{
+    width: 30%;
+    height:auto;
+  }
 
+  #aboutus p{
+    font-size: 18px;
+  }
+
+  #aboutus div{
+    padding-left: 45px;
+  }
+
+  #about-magnus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #about-magnus .video{
+    margin: 30px auto 0 auto;
+    width: 100%;
+    height: 100%;
+  }
+
+  #contact-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #contact-page .details{
+    padding-left: 50px;
+  }
 
 
   /* media */
