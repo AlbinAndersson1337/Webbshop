@@ -17,21 +17,21 @@ if (close) {
 
 
 ////////////////////////////////////////
-//let cartIcon = document.getElementById('#cart-icon')
-//let cart = document.getElementsByClassName('.cart1')
-//let closeCart = document.getElementById('#close-cart')
+let cartIcon = document.getElementById('#cart-icon')
+let cart = document.getElementsByClassName('.cart1')
+let closeCart = document.getElementById('#close-cart')
 
-// //cartIcon.addEventListener('click', () => {
-//   cart.classList.add('active');
-// });
+cartIcon.addEventListener('click', () => {
+   cart.classList.add('active');
+ });
 
-// closeCart.addEventListener('click', () => {
-//   cart.classList.remove('active');
-// });
+closeCart.addEventListener('click', () => {
+   cart.classList.remove('active');
+ });
 
-function openCart() {
-    document.getElementById("cart-icon").style.right = 0
-  }
-  function closeCart() {
-    document.getElementById("cart-remove").style.right = "-300%"
-  }
+// function openCart() {
+//     document.getElementById("cart-icon").style.right = 0
+//   }
+//   function closeCart() {
+//     document.getElementById("cart-remove").style.right = "-300%"
+//   }
