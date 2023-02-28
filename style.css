@@ -128,7 +128,7 @@ body{
 
   
 
-  #navbar .cart1{
+  /* #navbar .cart1{
     position: fixed;
     top: 0;
     right: -100%;
@@ -235,7 +235,7 @@ body{
     font-size: 2rem;
     color: black;
     cursor: pointer;
-  }
+  } */
 
 
 
@@ -655,7 +655,7 @@ body{
 
   /*cart*/
 
-  #cart table{
+   #cart table{
     width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
@@ -710,7 +710,7 @@ body{
 
   #cart table tbody td {
     font-size: 13px;
-  }
+  } 
 
 
 

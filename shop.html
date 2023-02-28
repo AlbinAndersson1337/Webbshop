@@ -52,7 +52,7 @@
             </div>
             <h4>$1999</h4>
           </div>
-          <a href="#"><i class="fa fa-cart-shopping cart"></i></i></a>
+          <a href="#" onclick="addToCart('product1')"><i class="fa fa-cart-shopping cart"></i></i></a>
         </div>
     
         <div class="feature">
@@ -218,6 +218,13 @@
 
 
     </section>
+
+    <script>
+      const cartLink = document.getElementById('cart-link');
+      cartLink.addEventListener('click', function() {
+        console.log('Shopping cart clicked!');
+      });
+    </script>
 
   <script src="script.js"></script>
 </body>
