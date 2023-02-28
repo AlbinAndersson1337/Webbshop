@@ -21,13 +21,12 @@ let cartIcon = document.getElementById('#cart-icon')
 let cart = document.getElementsByClassName('.cart1')
 let closeCart = document.getElementById('#close-cart')
 
-cartIcon.addEventListener('click', () => {
-   cart.classList.add('active');
- });
-
-closeCart.addEventListener('click', () => {
-   cart.classList.remove('active');
- });
+cartIcon.onclick = () => {
+    cart.classList.add("active");
+};
+closeCart.onclick = () => {
+    cart.classList.remove("active");
+};
 
 // function openCart() {
 //     document.getElementById("cart-icon").style.right = 0
