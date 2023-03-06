@@ -713,8 +713,37 @@ body{
   } 
 
 
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-300px);
+    }
 
+    to{
+      transform: translateX(0)
+    }
 
+    #animtest{
+      animation-name: slideInLeft;
+      animation-duration: 0.4s;
+      animation-timing-function: ease;
+      animation-delay: 0s;
+      animation-direction: normal;
+      animation-fill-mode: forwards;
+    }
+  }
+
+  #animtest{
+    /* transition-property: transform;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s; */
+    transition: transform 0.4s;
+  }
+  #animtest:hover{
+    transform: translateY(-10px);
+  }
+
+  
 
 
   /* media */
